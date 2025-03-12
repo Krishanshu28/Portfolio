@@ -1,0 +1,225 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(90deg, #ff416c, #2bbcff);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 3px solid #ff416c;
+}
+
+/* --- BIGGER PROJECT SECTION --- */
+/* --- CENTERING PROJECTS SECTION & IMPROVING LAYOUT --- */
+/* --- CENTERING PROJECTS SECTION & IMPROVING LAYOUT --- */
+#projects {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Container for Side-by-Side Projects */
+.project-container {
+    display: flex;
+    flex-direction: row ;
+    gap: 40px;
+    justify-content: center;
+}
+
+/* Project Cards */
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32%;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Project Images */
+.project img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Project Information */
+.project-info {
+    text-align: left;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.project-info h3 {
+    color: #f8b400;
+}
+
+.project-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.project-info ul li {
+    margin-bottom: 5px;
+}
+
+/* Buttons */
+.project-info a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #f8b400;
+    border-radius: 5px;
+}
+
+.project-info a:hover {
+    background-color: #c98c00;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .project {
+        width: 90%;
+    }
+}
+/* Experience Section */
+#experience {
+    text-align: center;
+    padding: 50px;
+    background-color: #1e1e1e;
+}
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.experience {
+    width: 70%;
+    background-color: #292929;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.experience h3 {
+    color: #f8b400;
+}
+
+.experience ul {
+    list-style: none;
+    padding: 0;
+}
+
+.experience ul li {
+    margin-bottom: 5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .experience {
+        width: 90%;
+    }
+}
+
+/* --- SKILLS SECTION --- */
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.skill-category {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+}
+
+.skill-category h3 {
+    color: #ff416c;
+}
+
+.skill-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-category ul li {
+    padding: 5px 0;
+}
+
+#S_head
+{
+    justify-content: center;
+    align-items: center;
+    margin-left: 47%;
+}
+
+/* --- CENTERED CONTACT SECTION --- */
+#contact {
+    text-align: center;
+    padding: 50px;
+    background-color: #1a1a1a;
+}
+
+.contact-container {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.contact-container a {
+    color: #ff416c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* --- FOOTER --- */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #222;
+}
